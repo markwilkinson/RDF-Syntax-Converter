@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  rdf-transform:
+    image: markw/rdf-transform:0.0.1
+    restart: always
+    hostname: rdf-transform
+    ports:
+      - 4567:4567
