@@ -2,7 +2,7 @@ version: "3"
 services:
 
   rdf-transform:
-    image: markw/rdf-transform:0.0.1
+    image: markw/rdf-transform:latest
     restart: always
     hostname: rdf-transform
     ports:

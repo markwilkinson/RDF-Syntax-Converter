@@ -30,7 +30,8 @@ end
 
 
 def transform
-  @prefixes = 'foaf:http://xmlns.com/foaf/0.1/,  dc:http://purl.org/dc/terms/,  spar:http://purl.org/spar/datacite/,  sio:http://semanticscience.org/resource/,  dcat:http://www.w3.org/ns/dcat#,  re:http://www.re3data.org/schema/3-0#,  fdp:http://rdf.biosemantics.org/ontologies/fdp-o#,  ldp:http://www.w3.org/ns/ldp#,  rdf:http://www.w3.org/1999/02/22-rdf-syntax-ns#,  rdfs:http://www.w3.org/2000/01/rdf-schema#,obo:http://purl.obolibrary.org/obo/'
+  @prefixes = 'foaf:http://xmlns.com/foaf/0.1/,dc:http://purl.org/dc/terms/,spar:http://purl.org/spar/datacite/,sio:http://semanticscience.org/resource/,dcat:http://www.w3.org/ns/dcat#,re:http://www.re3data.org/schema/3-0#,fdp:http://rdf.biosemantics.org/ontologies/fdp-o#,ldp:http://www.w3.org/ns/ldp#,rdf:http://www.w3.org/1999/02/22-rdf-syntax-ns#,rdfs:http://www.w3.org/2000/01/rdf-schema#,obo:http://purl.obolibrary.org/obo/'
+
   $stderr.puts request.env
   @content = request.env["CONTENT_TYPE"]
   @accept = request.env["HTTP_ACCEPT"]

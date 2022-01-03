@@ -1,0 +1,564 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "  dc": "http://purl.org/dc/terms/",
+    "  spar": "http://purl.org/spar/datacite/",
+    "  sio": "http://semanticscience.org/resource/",
+    "  dcat": "http://www.w3.org/ns/dcat#",
+    "  re": "http://www.re3data.org/schema/3-0#",
+    "  fdp": "http://rdf.biosemantics.org/ontologies/fdp-o#",
+    "  ldp": "http://www.w3.org/ns/ldp#",
+    "  rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "  rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "obo": "http://purl.obolibrary.org/obo/",
+    "dc": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "fdp": "http://rdf.biosemantics.org/ontologies/fdp-o#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "ns0": "http://www.w3.org/2006/vcard/ns#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sio": "http://semanticscience.org/resource/",
+    "spar": "http://purl.org/spar/datacite/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/duchenne-fdp/distribution/",
+      "@type": "  ldp:DirectContainer",
+      "  dc:title": "Distributions",
+      "  ldp:contains": {
+        "@id": "https://w3id.org/duchenne-fdp/distribution/d959bbdd-7e20-453a-b8ad-0d1897bdb287"
+      },
+      "  ldp:hasMemberRelation": {
+        "@id": "  dcat:distribution"
+      },
+      "  ldp:membershipResource": {
+        "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838"
+      }
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838",
+      "@type": [
+        "  dcat:Dataset",
+        "  dcat:Resource"
+      ],
+      "  rdfs:label": "Distributions",
+      "  dc:title": "Duchenne Data Platform",
+      "  dc:accessRights": {
+        "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#accessRights"
+      },
+      "  dc:conformsTo": {
+        "@id": "https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604"
+      },
+      "  dc:creator": {
+        "@id": "https://orcid.org/0000-0003-2160-9395"
+      },
+      "  dc:description": "The Duchenne Data Platform (DDP) is a patient-led registry. Patients are the owners of their data and have their own ‘data lockers’ where they can not only collect their Patient Reported Outcomes (PROs) but can also upload their data from other sources such as hospitals and wearables.",
+      "  dc:hasVersion": "0.0.1",
+      "  dc:identifier": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838",
+      "  dc:isPartOf": {
+        "@id": "https://w3id.org/duchenne-fdp/catalog/c7a52cda-7980-42f8-9aaa-08fb5b1855ae"
+      },
+      "  dc:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2021-12-09T07:11:59.385"
+      },
+      "  dc:language": {
+        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+      },
+      "  dc:license": {
+        "@id": "https://raw.githubusercontent.com/creativecommons/cc.licenserdf/master/cc/licenserdf/licenses/creativecommons.org_publicdomain_zero_1.0_.rdf"
+      },
+      "  dc:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2021-12-27T07:41:43"
+      },
+      "  dc:publisher": {
+        "@id": "_:g482780"
+      },
+      "  dc:rights": {
+        "@id": "https://en.wikipedia.org/wiki/All_rights_reserved"
+      },
+      "  fdp:metadataIdentifier": {
+        "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#identifier"
+      },
+      "  fdp:metadataIssued": {
+        "@type": "xsd:dateTime",
+        "@value": "2021-12-09T12:12:01.405703818Z"
+      },
+      "  fdp:metadataModified": {
+        "@type": "xsd:dateTime",
+        "@value": "2021-12-27T07:41:44.486327194Z"
+      },
+      "  sio:SIO_000628": [
+        {
+          "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/445c0a70d1e214e545b261559e2842f4"
+        },
+        {
+          "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/5d27e854a9e78eb3f663331cd47cdc13"
+        }
+      ],
+      "  dcat:contactPoint": {
+        "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#contact"
+      },
+      "  dcat:distribution": {
+        "@id": "https://w3id.org/duchenne-fdp/distribution/d959bbdd-7e20-453a-b8ad-0d1897bdb287"
+      },
+      "  dcat:keyword": [
+        {
+          "@language": "en",
+          "@value": "Clinical data"
+        },
+        {
+          "@language": "en",
+          "@value": "Becker Muscular Dystrophy"
+        },
+        {
+          "@language": "en",
+          "@value": "Duchenne Muscular Dystrophy"
+        },
+        {
+          "@language": "en",
+          "@value": "Genetic data"
+        },
+        {
+          "@language": "en",
+          "@value": "PROMs"
+        },
+        {
+          "@language": "en",
+          "@value": "PROs"
+        }
+      ],
+      "  dcat:landingPage": {
+        "@id": "https://duchenne.nl"
+      },
+      "  dcat:theme": [
+        {
+          "@id": "obo:HP_0011675"
+        },
+        {
+          "@id": "obo:NCIT_C13306"
+        },
+        {
+          "@id": "obo:HP_0008981"
+        },
+        {
+          "@id": "obo:NCIT_C141687"
+        },
+        {
+          "@id": "obo:UBERON_0001434"
+        },
+        {
+          "@id": "obo:HP_0009473"
+        },
+        {
+          "@id": "obo:HP_0002014"
+        },
+        {
+          "@id": "obo:NCIT_C20993"
+        },
+        {
+          "@id": "obo:HP_0000750"
+        },
+        {
+          "@id": "obo:NCIT_C132531"
+        },
+        {
+          "@id": "obo:HP_0001344"
+        },
+        {
+          "@id": "obo:PATO_0001421"
+        },
+        {
+          "@id": "obo:HP_0006957"
+        },
+        {
+          "@id": "obo:NCIT_C49887"
+        },
+        {
+          "@id": "obo:HP_0003044"
+        },
+        {
+          "@id": "obo:HP_0002987"
+        },
+        {
+          "@id": "obo:HP_0003270"
+        },
+        {
+          "@id": "obo:HP_0001639"
+        },
+        {
+          "@id": "obo:HP_0002650"
+        },
+        {
+          "@id": "obo:HP_0005997"
+        },
+        {
+          "@id": "obo:HP_0000819"
+        },
+        {
+          "@id": "obo:HP_0001263"
+        },
+        {
+          "@id": "obo:NCIT_C125410"
+        },
+        {
+          "@id": "obo:HP_0002617"
+        },
+        {
+          "@id": "obo:NCIT_C131922"
+        },
+        {
+          "@id": "obo:NCIT_C93300"
+        },
+        {
+          "@id": "obo:HP_0000708"
+        },
+        {
+          "@id": "obo:NCIT_C25656"
+        },
+        {
+          "@id": "obo:HP_0002020"
+        },
+        {
+          "@id": "obo:HP_0000939"
+        },
+        {
+          "@id": "obo:HP_0001249"
+        },
+        {
+          "@id": "obo:HP_0002090"
+        },
+        {
+          "@id": "obo:HP_0003674"
+        },
+        {
+          "@id": "obo:HP_0003458"
+        },
+        {
+          "@id": "obo:HP_0002315"
+        },
+        {
+          "@id": "obo:NCIT_C94321"
+        },
+        {
+          "@id": "obo:HP_0010891"
+        },
+        {
+          "@id": "obo:HP_0000501"
+        },
+        {
+          "@id": "obo:HP_0003457"
+        },
+        {
+          "@id": "obo:NCIT_C70810"
+        },
+        {
+          "@id": "obo:NCIT_C141702"
+        },
+        {
+          "@id": "obo:HP_0002539"
+        },
+        {
+          "@id": "obo:HP_0100543"
+        },
+        {
+          "@id": "obo:NCIT_C156420"
+        },
+        {
+          "@id": "obo:NCIT_C28421"
+        },
+        {
+          "@id": "obo:NCIT_C16576"
+        },
+        {
+          "@id": "obo:HP_0010819"
+        },
+        {
+          "@id": "obo:HP_0001256"
+        },
+        {
+          "@id": "obo:HP_0002317"
+        },
+        {
+          "@id": "obo:NCIT_C50184"
+        },
+        {
+          "@id": "obo:HP_0033454"
+        },
+        {
+          "@id": "obo:NCIT_C68615"
+        },
+        {
+          "@id": "obo:HP_0020110"
+        },
+        {
+          "@id": "obo:NCIT_C132555"
+        },
+        {
+          "@id": "obo:NCIT_C13359"
+        },
+        {
+          "@id": "obo:HP_0001324"
+        },
+        {
+          "@id": "obo:NCIT_C25711"
+        },
+        {
+          "@id": "obo:HP_0001376"
+        },
+        {
+          "@id": "obo:HP_0003707"
+        },
+        {
+          "@id": "obo:NCIT_C102559"
+        },
+        {
+          "@id": "obo:NCIT_C138901"
+        },
+        {
+          "@id": "obo:NCIT_C176742"
+        },
+        {
+          "@id": "obo:HP_0004349"
+        },
+        {
+          "@id": "obo:HP_0000518"
+        },
+        {
+          "@id": "obo:HP_0005133"
+        },
+        {
+          "@id": "obo:HP_0001252"
+        },
+        {
+          "@id": "obo:NCIT_C141706"
+        },
+        {
+          "@id": "obo:HP_0002376"
+        },
+        {
+          "@id": "obo:HP_0003560"
+        },
+        {
+          "@id": "obo:HP_0001635"
+        },
+        {
+          "@id": "obo:NCIT_C94198"
+        },
+        {
+          "@id": "obo:HP_0001667"
+        },
+        {
+          "@id": "obo:NCIT_C16457"
+        },
+        {
+          "@id": "obo:NCIT_C141689"
+        },
+        {
+          "@id": "obo:HP_0002527"
+        },
+        {
+          "@id": "obo:HP_0006380"
+        },
+        {
+          "@id": "obo:NCIT_C115789"
+        },
+        {
+          "@id": "obo:NCIT_C25271"
+        },
+        {
+          "@id": "obo:HP_0003202"
+        },
+        {
+          "@id": "  sio:attribute"
+        },
+        {
+          "@id": "obo:HP_0003713"
+        },
+        {
+          "@id": "obo:HP_0002019"
+        },
+        {
+          "@id": "obo:NCIT_C136154"
+        },
+        {
+          "@id": "obo:NCIT_C50276"
+        },
+        {
+          "@id": "obo:NCIT_C15222"
+        },
+        {
+          "@id": "obo:HP_0006785"
+        },
+        {
+          "@id": "  sio:SIO_010056"
+        },
+        {
+          "@id": "obo:NCIT_C62103"
+        },
+        {
+          "@id": "obo:HP_0030193"
+        },
+        {
+          "@id": "obo:HP_0002791"
+        },
+        {
+          "@id": "obo:NCIT_C15383"
+        },
+        {
+          "@id": "obo:NCIT_C101668"
+        },
+        {
+          "@id": "obo:HP_0003307"
+        },
+        {
+          "@id": "obo:HP_0001644"
+        },
+        {
+          "@id": "obo:NCIT_C20197"
+        },
+        {
+          "@id": "  sio:end-date"
+        },
+        {
+          "@id": "obo:HP_0003325"
+        },
+        {
+          "@id": "obo:HP_0001638"
+        },
+        {
+          "@id": "obo:NCIT_C122920"
+        },
+        {
+          "@id": "obo:HP_0003198"
+        },
+        {
+          "@id": "obo:HP_0002878"
+        },
+        {
+          "@id": "obo:HP_0002515"
+        },
+        {
+          "@id": "obo:HP_0001288"
+        },
+        {
+          "@id": "obo:NCIT_C25597"
+        },
+        {
+          "@id": "obo:HP_0001250"
+        },
+        {
+          "@id": "obo:HP_0002133"
+        },
+        {
+          "@id": "obo:HP_0008366"
+        },
+        {
+          "@id": "obo:NCIT_C156186"
+        },
+        {
+          "@id": "obo:HP_0033333"
+        },
+        {
+          "@id": "obo:NCIT_C171133"
+        },
+        {
+          "@id": "obo:NCIT_C130965"
+        },
+        {
+          "@id": "obo:HP_0003391"
+        },
+        {
+          "@id": "obo:HP_0003236"
+        },
+        {
+          "@id": "  sio:start-date"
+        },
+        {
+          "@id": "obo:HP_0003100"
+        },
+        {
+          "@id": "obo:NCIT_C115805"
+        },
+        {
+          "@id": "obo:NCIT_C21072"
+        },
+        {
+          "@id": "obo:HP_0001265"
+        },
+        {
+          "@id": "obo:HP_0001714"
+        },
+        {
+          "@id": "obo:HP_0001371"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "https://duchenne.nl"
+      }
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#accessRights",
+      "@type": "  dc:RightsStatement",
+      "  dc:description": "This metadata file has no restrictions"
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604",
+      "  rdfs:label": "Dataset Profile"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2160-9395",
+      "@type": "foaf:Person",
+      "  rdfs:label": {
+        "@language": "en",
+        "@value": "https://w3id.org/duchenne-fdp/dataset/d877ac76-87ba-461f-803b-3a8a90a2e965#contact"
+      }
+    },
+    {
+      "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+      "@type": "  dc:LinguisticSystem"
+    },
+    {
+      "@id": "_:g482780",
+      "@type": "foaf:Agent",
+      "foaf:name": "Mark D Wilkinson"
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#identifier",
+      "@type": "  spar:Identifier",
+      "  dc:identifier": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838"
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/445c0a70d1e214e545b261559e2842f4",
+      "  sio:SIO_000332": {
+        "@id": "https://www.ietf.org/rfc/rfc3986.txt"
+      },
+      "  sio:SIO_000628": {
+        "@id": "https://www.ietf.org/rfc/rfc3986.txt"
+      }
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/5d27e854a9e78eb3f663331cd47cdc13",
+      "  sio:SIO_000332": {
+        "@id": "https://www.wikidata.org/wiki/Q8777"
+      },
+      "  sio:SIO_000628": {
+        "@id": "https://www.wikidata.org/wiki/Q8777"
+      }
+    },
+    {
+      "@id": "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#contact",
+      "@type": "ns0:Individual",
+      "ns0:fn": {
+        "@language": "en",
+        "@value": "https://w3id.org/duchenne-fdp/dataset/d877ac76-87ba-461f-803b-3a8a90a2e965#contact"
+      },
+      "ns0:hasEmail": {
+        "@id": "mailto:info@duchenne.nl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix ns0: <http://www.w3.org/2006/vcard/ns#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix spar: <http://purl.org/spar/datacite/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/duchenne-fdp/distribution/> a ldp:DirectContainer;
+  dc:title "Distributions";
+  ldp:contains <https://w3id.org/duchenne-fdp/distribution/d959bbdd-7e20-453a-b8ad-0d1897bdb287>;
+  ldp:hasMemberRelation dcat:distribution;
+  ldp:membershipResource <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838> .
+
+<http://id.loc.gov/vocabulary/iso639-1/en> a dc:LinguisticSystem .
+
+<https://orcid.org/0000-0003-2160-9395> a foaf:Person;
+  rdfs:label "https://w3id.org/duchenne-fdp/dataset/d877ac76-87ba-461f-803b-3a8a90a2e965#contact"@en .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838> a dcat:Dataset,
+    dcat:Resource;
+  rdfs:label "Distributions";
+  dc:title "Duchenne Data Platform";
+  dc:accessRights <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#accessRights>;
+  dc:conformsTo <https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604>;
+  dc:creator <https://orcid.org/0000-0003-2160-9395>;
+  dc:description "The Duchenne Data Platform (DDP) is a patient-led registry. Patients are the owners of their data and have their own ‘data lockers’ where they can not only collect their Patient Reported Outcomes (PROs) but can also upload their data from other sources such as hospitals and wearables.";
+  dc:hasVersion "0.0.1";
+  dc:identifier "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838";
+  dc:isPartOf <https://w3id.org/duchenne-fdp/catalog/c7a52cda-7980-42f8-9aaa-08fb5b1855ae>;
+  dc:issued "2021-12-09T07:11:59.385"^^xsd:dateTime;
+  dc:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dc:license <https://raw.githubusercontent.com/creativecommons/cc.licenserdf/master/cc/licenserdf/licenses/creativecommons.org_publicdomain_zero_1.0_.rdf>;
+  dc:modified "2021-12-27T07:41:43"^^xsd:dateTime;
+  dc:publisher [
+    a foaf:Agent;
+    foaf:name "Mark D Wilkinson"
+  ];
+  dc:rights <https://en.wikipedia.org/wiki/All_rights_reserved>;
+  fdp:metadataIdentifier <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#identifier>;
+  fdp:metadataIssued "2021-12-09T12:12:01.405703818Z"^^xsd:dateTime;
+  fdp:metadataModified "2021-12-27T07:41:44.486327194Z"^^xsd:dateTime;
+  sio:SIO_000628 <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:contactPoint <https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#contact>;
+  dcat:distribution <https://w3id.org/duchenne-fdp/distribution/d959bbdd-7e20-453a-b8ad-0d1897bdb287>;
+  dcat:keyword "Clinical data"@en,
+    "Becker Muscular Dystrophy"@en,
+    "Duchenne Muscular Dystrophy"@en,
+    "Genetic data"@en,
+    "PROMs"@en,
+    "PROs"@en;
+  dcat:landingPage <https://duchenne.nl>;
+  dcat:theme obo:HP_0011675,
+    obo:NCIT_C13306,
+    obo:HP_0008981,
+    obo:NCIT_C141687,
+    obo:UBERON_0001434,
+    obo:HP_0009473,
+    obo:HP_0002014,
+    obo:NCIT_C20993,
+    obo:HP_0000750,
+    obo:NCIT_C132531,
+    obo:HP_0001344,
+    obo:PATO_0001421,
+    obo:HP_0006957,
+    obo:NCIT_C49887,
+    obo:HP_0003044,
+    obo:HP_0002987,
+    obo:HP_0003270,
+    obo:HP_0001639,
+    obo:HP_0002650,
+    obo:HP_0005997,
+    obo:HP_0000819,
+    obo:HP_0001263,
+    obo:NCIT_C125410,
+    obo:HP_0002617,
+    obo:NCIT_C131922,
+    obo:NCIT_C93300,
+    obo:HP_0000708,
+    obo:NCIT_C25656,
+    obo:HP_0002020,
+    obo:HP_0000939,
+    obo:HP_0001249,
+    obo:HP_0002090,
+    obo:HP_0003674,
+    obo:HP_0003458,
+    obo:HP_0002315,
+    obo:NCIT_C94321,
+    obo:HP_0010891,
+    obo:HP_0000501,
+    obo:HP_0003457,
+    obo:NCIT_C70810,
+    obo:NCIT_C141702,
+    obo:HP_0002539,
+    obo:HP_0100543,
+    obo:NCIT_C156420,
+    obo:NCIT_C28421,
+    obo:NCIT_C16576,
+    obo:HP_0010819,
+    obo:HP_0001256,
+    obo:HP_0002317,
+    obo:NCIT_C50184,
+    obo:HP_0033454,
+    obo:NCIT_C68615,
+    obo:HP_0020110,
+    obo:NCIT_C132555,
+    obo:NCIT_C13359,
+    obo:HP_0001324,
+    obo:NCIT_C25711,
+    obo:HP_0001376,
+    obo:HP_0003707,
+    obo:NCIT_C102559,
+    obo:NCIT_C138901,
+    obo:NCIT_C176742,
+    obo:HP_0004349,
+    obo:HP_0000518,
+    obo:HP_0005133,
+    obo:HP_0001252,
+    obo:NCIT_C141706,
+    obo:HP_0002376,
+    obo:HP_0003560,
+    obo:HP_0001635,
+    obo:NCIT_C94198,
+    obo:HP_0001667,
+    obo:NCIT_C16457,
+    obo:NCIT_C141689,
+    obo:HP_0002527,
+    obo:HP_0006380,
+    obo:NCIT_C115789,
+    obo:NCIT_C25271,
+    obo:HP_0003202,
+    sio:attribute,
+    obo:HP_0003713,
+    obo:HP_0002019,
+    obo:NCIT_C136154,
+    obo:NCIT_C50276,
+    obo:NCIT_C15222,
+    obo:HP_0006785,
+    sio:SIO_010056,
+    obo:NCIT_C62103,
+    obo:HP_0030193,
+    obo:HP_0002791,
+    obo:NCIT_C15383,
+    obo:NCIT_C101668,
+    obo:HP_0003307,
+    obo:HP_0001644,
+    obo:NCIT_C20197,
+    sio:end-date,
+    obo:HP_0003325,
+    obo:HP_0001638,
+    obo:NCIT_C122920,
+    obo:HP_0003198,
+    obo:HP_0002878,
+    obo:HP_0002515,
+    obo:HP_0001288,
+    obo:NCIT_C25597,
+    obo:HP_0001250,
+    obo:HP_0002133,
+    obo:HP_0008366,
+    obo:NCIT_C156186,
+    obo:HP_0033333,
+    obo:NCIT_C171133,
+    obo:NCIT_C130965,
+    obo:HP_0003391,
+    obo:HP_0003236,
+    sio:start-date,
+    obo:HP_0003100,
+    obo:NCIT_C115805,
+    obo:NCIT_C21072,
+    obo:HP_0001265,
+    obo:HP_0001714,
+    obo:HP_0001371;
+  foaf:homepage <https://duchenne.nl> .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#accessRights> a dc:RightsStatement;
+  dc:description "This metadata file has no restrictions" .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#contact> a ns0:Individual;
+  ns0:fn "https://w3id.org/duchenne-fdp/dataset/d877ac76-87ba-461f-803b-3a8a90a2e965#contact"@en;
+  ns0:hasEmail <mailto:info@duchenne.nl> .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838#identifier> a spar:Identifier;
+  dc:identifier "https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838" .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/445c0a70d1e214e545b261559e2842f4> sio:SIO_000332 <https://www.ietf.org/rfc/rfc3986.txt>;
+  sio:SIO_000628 <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://w3id.org/duchenne-fdp/dataset/63141d1c-34e5-4c50-84ef-f1b33724a838/metrics/5d27e854a9e78eb3f663331cd47cdc13> sio:SIO_000332 <https://www.wikidata.org/wiki/Q8777>;
+  sio:SIO_000628 <https://www.wikidata.org/wiki/Q8777> .
+
+<https://w3id.org/duchenne-fdp/profile/2f08228e-1789-40f8-84cd-28e3288c3604> rdfs:label "Dataset Profile" .
